@@ -1,0 +1,42 @@
+[project]
+name = "tplinkctl"
+dynamic = ["version"]
+description = "Read-first CLI and Python API for TP-Link routers, with connectivity diagnostics (built on tplinkrouterc6u)"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+authors = [{ name = "Amol Venkataraman" }]
+requires-python = ">=3.10"
+dependencies = ["tplinkrouterc6u>=5.36"]
+keywords = ["tp-link", "tplink", "archer", "router", "cli", "dhcp", "diagnostics"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Networking",
+]
+
+[project.urls]
+Homepage = "https://github.com/upstream-wontfix/tplinkctl"
+Issues = "https://github.com/upstream-wontfix/tplinkctl/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+tplink = "tplinkctl.cli:main"
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/tplinkctl/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tplinkctl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
