@@ -1,12 +1,22 @@
-# tplinkctl
+<!-- header:start -->
+<div align="center">
+
+<img alt="tplinkctl: Read-first CLI and Python API for TP-Link routers, with connectivity diagnostics." src=".github/assets/banner.svg" width="100%">
+
+![python: 3.10+](https://img.shields.io/badge/python-3.10%2B-0f6f68?labelColor=15181c&color=0f6f68)
+[![licence: GPL-3.0](https://img.shields.io/badge/licence-GPL--3.0-0f6f68?labelColor=15181c&color=0f6f68)](LICENSE)
+
+[Install](#install) · [CLI](#cli) · [Known quirks](#known-quirks) · [Python API](#python-api)
+
+</div>
+
+<a href="https://haiscale.amolven.com/A1/"><img alt="HAI Scale A1, Mostly automated. Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own router. Unofficial and not affiliated with TP-Link. Use it only on routers you own or are authorised to administer. Provided as is, with no warranty." src=".github/assets/hai.svg" width="100%"></a>
+
+<sub>Full terms: [DISCLAIMER.md](DISCLAIMER.md)</sub>
+<!-- header:end -->
 
 A read-first command-line tool and Python library for TP-Link routers, plus a
 `diagnose` command that finds common reasons devices can't connect.
-
-> [!WARNING]
-> **Provided AS IS, with no warranty and no liability. Written with AI assistance.**
-> Review the code before you run it, and only use it on routers you own or are
-> authorised to administer. Read [DISCLAIMER.md](DISCLAIMER.md) before use.
 
 It's built on [`tplinkrouterc6u`](https://github.com/AlexandrErohin/TP-Link-Archer-C6U),
 which handles the encrypted RSA/AES login for many TP-Link router families
