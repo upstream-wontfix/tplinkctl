@@ -1,18 +1,18 @@
 <!-- header:start -->
 <div align="center">
 
-<img alt="tplinkctl: Read-first CLI and Python API for TP-Link routers, with connectivity diagnostics." src=".github/assets/banner.svg" width="100%">
+<img alt="tplinkctl: Read-first CLI and Python API for TP-Link routers, with connectivity diagnostics." src="https://raw.githubusercontent.com/upstream-wontfix/tplinkctl/main/.github/assets/banner.svg" width="100%">
 
 ![python: 3.10+](https://img.shields.io/badge/python-3.10%2B-0f6f68?labelColor=15181c&color=0f6f68)
-[![licence: GPL-3.0](https://img.shields.io/badge/licence-GPL--3.0-0f6f68?labelColor=15181c&color=0f6f68)](LICENSE)
+[![licence: GPL-3.0](https://img.shields.io/badge/licence-GPL--3.0-0f6f68?labelColor=15181c&color=0f6f68)](https://github.com/upstream-wontfix/tplinkctl/blob/main/LICENSE)
 
 [Install](#install) · [CLI](#cli) · [Known quirks](#known-quirks) · [Python API](#python-api)
 
 </div>
 
-<a href="https://haiscale.amolven.com/A1/"><img alt="HAI Scale A1, Mostly automated. Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own router. Unofficial and not affiliated with TP-Link. Use it only on routers you own or are authorised to administer. Provided as is, with no warranty." src=".github/assets/hai.svg" width="100%"></a>
+<a href="https://haiscale.amolven.com/A1/"><img alt="HAI Scale A1, Mostly automated. Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own router. Unofficial and not affiliated with TP-Link. Use it only on routers you own or are authorised to administer. Provided as is, with no warranty." src="https://raw.githubusercontent.com/upstream-wontfix/tplinkctl/main/.github/assets/hai.svg" width="100%"></a>
 
-<sub>Full terms: [DISCLAIMER.md](DISCLAIMER.md)</sub>
+<sub>Full terms: [DISCLAIMER.md](https://github.com/upstream-wontfix/tplinkctl/blob/main/DISCLAIMER.md)</sub>
 <!-- header:end -->
 
 A read-first command-line tool and Python library for TP-Link routers, plus a
