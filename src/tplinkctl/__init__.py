@@ -4,7 +4,7 @@
 
 Provided AS IS, without warranty of any kind; see LICENSE and DISCLAIMER.md.
 """
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .config import ConfigError, Settings, resolve_settings
 from .diagnose import Finding, collect, diagnose
