@@ -34,9 +34,23 @@ adds:
 
 ## Install
 
+From PyPI (the package is `tplinkctl`; the command it installs is `tplink`):
+
+```bash
+pipx install tplinkctl        # or: uv tool install tplinkctl
+pip install tplinkctl         # as a library in an existing environment
+```
+
+From source:
+
 ```bash
 git clone https://github.com/upstream-wontfix/tplinkctl && cd tplinkctl
 uv tool install .             # or: pipx install .
+```
+
+Then store the router's admin password:
+
+```bash
 tplink set-password           # stores the admin password in ~/.config/tplinkctl/password (mode 600)
 ```
 
@@ -163,7 +177,7 @@ terms of the GNU General Public License as published by the Free Software
 Foundation, either version 3 of the License, or (at your option) any later
 version. It is distributed WITHOUT ANY WARRANTY; without even the implied
 warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See
-[LICENSE](LICENSE) and [DISCLAIMER.md](DISCLAIMER.md).
+[LICENSE](https://github.com/upstream-wontfix/tplinkctl/blob/main/LICENSE) and [DISCLAIMER.md](https://github.com/upstream-wontfix/tplinkctl/blob/main/DISCLAIMER.md).
 
 Not affiliated with or endorsed by TP-Link. TP-Link and Archer are trademarks of
 their respective owners.
